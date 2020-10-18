@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type Writer</title>
+    <link rel="stylesheet" href="type.css">
+</head>
+<body>
+    <nav>
+
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+    </nav>
+    <section class="landing" style="z-index: -3;">
+        <div class="hello"><img src="Hello.svg" alt=""></div>
+        <div class="main-txt" >
+            <span class="iam">I am a</span>
+            
+            <div>
+                <span class="typer" id="main" data-delay="150" data-deletedelay="1000" data-colors="#29A19C" data-words="Web Developer,Designer,Techie"></span>
+                <span class="cursor" style="margin-left: -3px;" data-owner="main" data-cursorDisplay="|" ></span>
+            </div>
+            
+            <a href="#"><button class="hi-btn">Know More</button></a>
+        </div>
+        <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+
+        
+    </section>
+    
+    <script src="type.js"></script>
+    
+</body>
+</html>
